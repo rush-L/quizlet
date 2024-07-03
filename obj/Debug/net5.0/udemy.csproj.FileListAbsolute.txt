@@ -1,0 +1,16 @@
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\udemy.csproj.AssemblyReference.cache
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\udemy.GeneratedMSBuildEditorConfig.editorconfig
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\udemy.AssemblyInfoInputs.cache
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\udemy.AssemblyInfo.cs
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\udemy.csproj.CoreCompileInputs.cache
+D:\russel\Visual studio\c#\udemy\bin\Debug\net5.0\udemy.exe
+D:\russel\Visual studio\c#\udemy\bin\Debug\net5.0\udemy.deps.json
+D:\russel\Visual studio\c#\udemy\bin\Debug\net5.0\udemy.runtimeconfig.json
+D:\russel\Visual studio\c#\udemy\bin\Debug\net5.0\udemy.runtimeconfig.dev.json
+D:\russel\Visual studio\c#\udemy\bin\Debug\net5.0\udemy.dll
+D:\russel\Visual studio\c#\udemy\bin\Debug\net5.0\ref\udemy.dll
+D:\russel\Visual studio\c#\udemy\bin\Debug\net5.0\udemy.pdb
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\udemy.dll
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\ref\udemy.dll
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\udemy.pdb
+D:\russel\Visual studio\c#\udemy\obj\Debug\net5.0\udemy.genruntimeconfig.cache
