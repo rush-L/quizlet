@@ -13,12 +13,13 @@ namespace udemy
             string ans=""; int x = 0;
             while (ans != "3")
             {
-                Console.WriteLine("Select an optionn.");
+                Console.WriteLine("Welcome to quizlet!");
                 Console.WriteLine("1. Login.");
                 Console.WriteLine("2. Signup");
                 Console.WriteLine("3. Exit");
+                Console.Write("Select an optionn: ");
                 ans = Console.ReadLine();
-
+                Console.Clear();
                 switch (ans)
                 {
                     case "1":
@@ -73,6 +74,7 @@ namespace udemy
             if (!users.ContainsKey(username))
             {
                 Console.WriteLine("Username not found. Enter valid credential.");
+                Console.Clear();
                 return;
             }
 
@@ -94,6 +96,8 @@ namespace udemy
 
         }
 
+
+
         //flashcards
         static void Flashcards (int num)
         {
@@ -102,9 +106,9 @@ namespace udemy
             {
                 Console.WriteLine("Enter question");
                 question=Console.ReadLine();
-                flashCards[question] = x;
+                flashCards[x] = question;
             }
-            foreach(var x in flashCards.Keys){
+            foreach(var x in flashCards.Values){
                 Console.WriteLine($"{flashCards[x]}");
             }
         }
