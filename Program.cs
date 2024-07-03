@@ -6,8 +6,8 @@ namespace udemy
     class Program
     {
         static  Dictionary<string,string> users = new Dictionary<string, string>();
-        static  Dictionary<string,int> flashCards = new Dictionary<string, int>();
-        static  Dictionary<string,int> meaning = new Dictionary<string, int>();
+        static  Dictionary<int,string> flashCards = new Dictionary<int, string>();
+        static  Dictionary<int,string> meaning = new Dictionary<int, string>();
         static void Main(string[] args)
         {
             string ans=""; int x = 0;
@@ -86,6 +86,7 @@ namespace udemy
                 Console.Write("Logged in successfully. Press Enter to proceed...");
                 Console.ReadLine();
                 Console.Clear();
+                Console.Write("How many cards do you want to use? ");
                 x=int.Parse(Console.ReadLine());
                 Flashcards(x);
             }
@@ -102,14 +103,28 @@ namespace udemy
         static void Flashcards (int num)
         {
             string question="";
-            for (int x=0; x<=num; x++)
+            string answer="";
+            for (int x=0; x<num; x++)
             {
                 Console.WriteLine("Enter question");
                 question=Console.ReadLine();
                 flashCards[x] = question;
+                
+                Console.WriteLine("Enter the answer");
+                answer=Console.ReadLine();
+                meaning[x] = answer;
+                
             }
-            foreach(var x in flashCards.Values){
+            Console.Clear();
+            
+            foreach(var x in flashCards.Keys){
                 Console.WriteLine($"{flashCards[x]}");
+                Console.Write("\npress any key...\n");
+                Console.ReadKey();
+                Console.WriteLine($"\n{meaning[x]}"); 
+                Console.Write("\npress any key...\n");   
+                Console.ReadKey();    
+                Console.Clear();        
             }
         }
     }
